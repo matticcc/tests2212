@@ -3,9 +3,9 @@ import requests
 from pyrogram import Client, filters
 
 # Fetch sensitive information from environment variables
-API_TOKEN = os.environ.get('8485756680:AAGVFEWAoJVibhhxykidh_uo-70kZ5naLLE')
-API_ID = os.environ.get('21258990')
-API_HASH = os.environ.get('90bc74918c15b3d707b2cb8e7af2cf04')
+API_TOKEN = os.environ.get('API_TOKEN')
+API_ID = os.environ.get('API_ID')
+API_HASH = os.environ.get('API_HASH')
 
 # Define the binlist API URL (using Binlist as an example)
 BINLIST_API_URL = "https://lookup.binlist.net/"
